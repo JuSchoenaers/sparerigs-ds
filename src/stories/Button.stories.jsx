@@ -23,7 +23,7 @@ Primary.args = {
 
 export const secondary = Template.bind({});
 secondary.args = {
-  label: 'Primary Button',
+  label: 'Secondary Button',
   secondary : true,
   onClick : action('Button clicked')
 };
