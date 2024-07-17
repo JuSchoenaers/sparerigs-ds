@@ -7,7 +7,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "predeploy": "npm run build-storybook",
-    "deploy": "gh-pages -d storybook-static"
+    "deploy": "gh-pages -d storybook-static",
+    "chromatic": "npx chromatic --project-token=chpt_545179d3711c01b"
   },
   "keywords": [],
   "author": "",
@@ -31,6 +32,7 @@
     "@storybook/react": "^8.2.4",
     "@storybook/react-vite": "^8.2.4",
     "@storybook/test": "^8.2.4",
+    "chromatic": "^11.5.5",
     "gh-pages": "^6.1.1",
     "prop-types": "^15.8.1",
     "storybook": "^8.2.4"
